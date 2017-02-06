@@ -1,0 +1,12 @@
+<svg width="48" height="32" viewBox="0 0 48 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:figma="http://www.figma.com/figma/ns">
+<title>&#226;&#128;&#153;&#226;&#128;&#153;</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(1209 -3173)" figma:type="canvas">
+<g id="&#226;&#128;&#153;&#226;&#128;&#153;" style="mix-blend-mode:normal;" figma:type="vector-operation">
+<use xlink:href="#path0_fill" transform="translate(-1209 3173)" fill="#E0E0E0" style="mix-blend-mode:normal;"/>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 13.1613 0C 20.5161 0 23.5161 5.12915 23.5161 10.5483C 23.5161 21.2903 13.8387 29.4194 2.32263 31.7419L 0 27.6775C 7.16125 25.7419 11.3226 22.1614 11.3226 18.7742C 11.3226 17.0322 10.6451 16.1614 8.70972 15.2903C 6.29028 14.2258 3.87097 12.7742 3.87097 8.51611C 3.87097 3.87085 7.64514 0 13.1613 0ZM 37.6451 0C 45 0 48 5.12915 48 10.5483C 48 21.2903 38.3226 29.4194 26.8064 31.7419L 24.4839 27.6775C 31.6451 25.7419 35.8064 22.1614 35.8064 18.7742C 35.8064 17.0322 35.129 16.1614 33.1936 15.2903C 30.7742 14.2258 28.3549 12.7742 28.3549 8.51611C 28.3549 3.87085 32.129 0 37.6451 0Z"/>
+</defs>
+</svg>

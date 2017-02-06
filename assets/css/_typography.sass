@@ -1,0 +1,82 @@
+html
+  -webkit-font-smoothing: antialiased
+  font-size: 14px
+
+body
+  font-size: 14px
+  color: $black_color
+  font-family: Helvetica, Arial, sans-serif
+  font-weight: 400
+  color: $black_color
+  margin-top: calcEm(107px)
+  overflow-x: hidden
+
+.textfield *,
+.select select
+  transition: 0.2s box-shadow
+
+.textfield *:focus,
+.select select:focus
+  box-shadow: 0 0 0 2px rgba(19, 105, 252, 1) inset
+
+b
+  font-weight: 700
+
+p
+  font-family: 'Noto Serif', serif
+  font-size: calcEm(18px)
+  line-height: 1.85
+  font-weight: 400
+  color: $black_color
+  padding-bottom: calcRem(24px)
+
+p
+  a
+    color: $link_color
+    text-decoration: underline
+    transition: 0.2s color
+    &:hover
+      color: darken( $link_color, 20% )
+    &:focus
+      color: lighten( $link_color, 10% )
+      text-decoration: none
+
+blockquote
+  font-family: 'Noto Serif', serif
+  font-style: italic
+  font-size: calcEm(24px)
+  line-height: 1.7
+  color: $grey_color
+  margin: calcRem(24px) 0 calcRem(48px) 0
+  padding: 0
+  border: none
+  width: 140%
+  margin-left: -15%
+  position: relative
+  &:before
+    content: ''
+    width: calcEm(28px)
+    height: calcEm(28px)
+    background-image: url("../img/brak.svg")
+    background-size: 100%
+    background-repeat: no-repeat
+    position: absolute
+    left: -10%
+    top: calcEm(8px)
+  a
+    color: $black_color
+    text-decoration: underline
+    transition: 0.2s color
+    &:hover
+      color: darken( $black_color, 20% )
+    &:focus
+      color: lighten( $black_color, 10% )
+      text-decoration: none
+
+img
+  max-width: 100%
+  margin-bottom: 0
+  line-height: 0
+
+
+
