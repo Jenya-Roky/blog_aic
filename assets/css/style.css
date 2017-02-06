@@ -292,7 +292,8 @@ form {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 35.71429em; }
+  height: 35.71429em;
+  background-color: antiquewhite; }
 
 .post-page__body {
   margin-top: 4.28571em; }
@@ -434,6 +435,7 @@ form {
     margin-bottom: 0.71429em; }
 
 .sidebar__image-autor {
+  background-color: antiquewhite;
   width: 5.5em;
   height: 5.5em;
   background-size: cover;
