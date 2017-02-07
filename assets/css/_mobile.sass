@@ -2,9 +2,9 @@
   html,
   body
     font-size: 12px
-
-  .wrapper-large
-    width: 960px
+  .post-page
+    .wrapper-large
+      width: 960px
 
   .sidebar-right
     padding-left: 0
@@ -25,216 +25,220 @@
   body
     font-size: 12px
 
+  .grid-sizer, .grid-item
+    width: 50%
+
 @media all and (max-width: 1010px)
+
   .post-page
     .wrapper-large
       width: 600px
       .post-page__body
         display: block
 
-  blockquote
-    width: 100%
-    margin-left: 0
-    &:before
-      display: none
+    blockquote
+      width: 100%
+      margin-left: 0
+      &:before
+        display: none
 
-  .float-image
-    width: 100%
-    float: none
-    margin: 30px 0 0 0
-    text-align: center
-    display: block
-    img
-      display: inline-block
-
-  .wide-image
-    max-width: 100%
-    width: 100%
-    margin-left: 0
-    img
-      padding: 10px
-      box-sizing: border-box
-
-  .sidebar
-    width: 100%
-
-  .pg-article
-    width: 100%
-
-  .wrapper-large
-    padding: 0 1rem
-
-  .grid > *:first-child
-    margin-left: 0
-
-  .grid > *:last-child
-    margin-right: 0
-
-  .grid > *
-    padding: 0
-
-  .sidebar-right
-    padding-left: 0
-
-  .sidebar-callout
-    position: relative
-    left: 0
-
-  .sidebar-callout--right
-    position: relative
-    right: 0
-
-  .social__item,
-  .icon,
-  .social-share__item
-    width: 35px
-    height: 35px
-
-  .grid-item
-    padding: 0
-
-  .menu__item
-    font-size: 14px
-
-  .header
-    .ta-right
-      display: none
-
-  .subscribe
-    width: 100%
-
-  .wide-image--full-screen
-    max-width: 100%
-    width: 100%
-
-  .post-page__image
-    height: 50vw
-
-  .post-page__body
-    margin-top: 30px
-
-
-@media all and (max-width: 780px)
-  .post-page
-    .wrapper-large
-      width: auto
-
-  .grid-sizer,
-  .grid-item
-    width: 100%
-
-  .grid
-    display: block
-
-  .wide-image
-    max-width: 100%
-    width: 100%
-    margin-left: 0
-    span
-      display: block
-      margin-bottom: 15px
-
-  .float-image
-    float: none
-    margin-left: 0
-    margin-right: 0
-    margin-top: 20px
-    display: block
-
-  .image-description--full-screen
-    width: 100%
-
-  blockquote
-    width: 100%
-    margin-left: 0
-    &:before
-      display: none
-
-  .slider
-    width: 100%
-
-  .slider__container
-    max-width: 100%
-    width: 100%
-    margin-left: 0
-
-  .slider-for,
-  .slider-nav
-    float: none
-
-  .slider-for
-    width: 100%
-
-  .slider-nav .slick-list div
-    width: 100%!important
-
-  .sidebar
-    width: 100%
-
-  .slider-nav
-    .slick-track
-      width: 100%!important
+    .float-image
+      width: 100%
+      float: none
+      margin: 30px 0 0 0
       text-align: center
-      margin-top: 20px
-      .slick-slide
+      display: block
+      img
         display: inline-block
+
+    .wide-image
+      max-width: 100%
+      width: 100%
+      margin-left: 0
+      img
+        padding: 10px
         box-sizing: border-box
-        margin: 2px
-        width: 80px!important
-        min-height: 60px!important
+
+    .sidebar
+      width: 100%
+
+    .pg-article
+      width: 100%
+
+    .wrapper-large
+      padding: 0 1rem
+
+    .grid > *:first-child
+      margin-left: 0
+
+    .grid > *:last-child
+      margin-right: 0
+
+    .grid > *
+      padding: 0
+
+    .sidebar-right
+      padding-left: 0
+
+    .sidebar-callout
+      position: relative
+      left: 0
+
+    .sidebar-callout--right
+      position: relative
+      right: 0
+
+    .social__item,
+    .icon,
+    .social-share__item
+      width: 35px
+      height: 35px
+
+    .grid-item
+      padding: 0
+
+    .menu__item
+      font-size: 14px
+
+    .header
+      .ta-right
+        display: none
+
+    .subscribe
+      width: 100%
+
+    .wide-image--full-screen
+      max-width: 100%
+      width: 100%
+
+    .post-page__image
+      height: 50vw
+
+    .post-page__body
+      margin-top: 30px
+
+
+  @media all and (max-width: 780px)
+    .grid-sizer,
+    .grid-item
+      width: 100%
+
+    .post-page
+      .wrapper-large
+        width: auto
+
+      .grid
+        display: block
+
+      .wide-image
+        max-width: 100%
+        width: 100%
+        margin-left: 0
+        span
+          display: block
+          margin-bottom: 15px
+
+      .float-image
+        float: none
+        margin-left: 0
+        margin-right: 0
+        margin-top: 20px
+        display: block
+
+      .image-description--full-screen
+        width: 100%
+
+      blockquote
+        width: 100%
+        margin-left: 0
+        &:before
+          display: none
+
+      .slider
+        width: 100%
+
+      .slider__container
+        max-width: 100%
+        width: 100%
+        margin-left: 0
+
+      .slider-for,
+      .slider-nav
         float: none
 
-  .pg-article
-    width: 100%
+      .slider-for
+        width: 100%
 
-  .wrapper-large
-    padding: 0 1rem
+      .slider-nav .slick-list div
+        width: 100%!important
 
-  .grid > *:first-child
-    margin-left: 0
+      .sidebar
+        width: 100%
 
-  .grid > *:last-child
-    margin-right: 0
+      .slider-nav
+        .slick-track
+          width: 100%!important
+          text-align: center
+          margin-top: 20px
+          .slick-slide
+            display: inline-block
+            box-sizing: border-box
+            margin: 2px
+            width: 80px!important
+            min-height: 60px!important
+            float: none
 
-  .grid > *
-    padding: 0
+      .pg-article
+        width: 100%
 
-  .sidebar-right
-    padding-left: 0
+      .wrapper-large
+        padding: 0 1rem
 
-  .sidebar-callout
-    position: relative
-    left: 0
+      .grid > *:first-child
+        margin-left: 0
 
-  .sidebar-callout--right
-    position: relative
-    right: 0
+      .grid > *:last-child
+        margin-right: 0
 
-  .social__item,
-  .icon,
-  .social-share__item
-    width: 35px
-    height: 35px
+      .grid > *
+        padding: 0
 
-  .grid-item
-    padding: 0
+      .sidebar-right
+        padding-left: 0
 
-  .menu__item
-    font-size: 14px
+      .sidebar-callout
+        position: relative
+        left: 0
 
-  .header
-    .ta-right
-      display: none
+      .sidebar-callout--right
+        position: relative
+        right: 0
 
-  .subscribe
-    width: 100%
+      .social__item,
+      .icon,
+      .social-share__item
+        width: 35px
+        height: 35px
 
-  .wide-image--full-screen
-    max-width: 100%
-    width: 100%
+      .grid-item
+        padding: 0
 
-  .post-page__image
-    height: 50vw
+      .menu__item
+        font-size: 14px
 
-  .post-page__body
-    margin-top: 30px
+      .header
+        .ta-right
+          display: none
+
+      .subscribe
+        width: 100%
+
+      .wide-image--full-screen
+        max-width: 100%
+        width: 100%
+
+      .post-page__image
+        height: 50vw
+
+      .post-page__body
+        margin-top: 30px
