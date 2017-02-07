@@ -214,6 +214,8 @@ form
   opacity: 1
   transition: 0.35s opacity, 0.35s transform
 
+
+
 .article-card__inner
   padding: calcRem(320px) calcRem(30px) calcRem(30px) calcRem(30px)
   background-size: cover
@@ -594,11 +596,6 @@ form
   margin-bottom: calcRem(30px)
   box-sizing: border-box
 
-.wrapper--grid
-  perspective: 960px
-  transform-style: preserve-3d
-  margin: 0 calcRem(-15px) calcRem(70px) calcRem(-15px)
-
 .link-to-article
   position: absolute
   top: 0
@@ -701,6 +698,9 @@ form
     &:before
       color: $link_color
 
+.stamp
+  width: 33.3333%
+
 .stamp-1
   right: 0
   top: 0
@@ -714,7 +714,6 @@ form
   transition: background-color 0.2s
 
 .article-card
-  transition: transform 0.2s
   backface-visibility: hidden
   &:hover
     .article-card__inner,
@@ -747,3 +746,23 @@ form
   box-sizing: border-box
   transition: 0.2s box-shadow, 0.2s transform
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0), 0 1px 3px rgba(0,0,0,.15)
+
+.post-page
+  h1
+    font-family: aktivGrotesk, sans-serif
+    font-size: calcEm(42px)
+    line-height: 1.35
+
+  h2
+    font-family: Helvetica, Arial, sans-serif
+    font-weight: 700
+    font-size: calcEm(24px)
+    line-height: 1.6
+    padding: calcRem(24px) 0
+
+  h3
+    font-family: Helvetica, Arial, sans-serif
+    font-weight: 700
+    font-size: calcEm(20px)
+    line-height: 1.6
+    padding: calcRem(24px) 0
