@@ -1,12 +1,10 @@
 @keyframes listIn
   from
-    transform: scale(0.1)
+    opacity: 0
+    transform: translate3d(0,20px,0)
   to
-    transform: scale(1)
-
-.element-in
-  animation: listIn .4s ease
-  transform: scale(1)
+    opacity: 1
+    transform: translate3d(0,0,0)
 
 form
   margin: 0
@@ -596,6 +594,9 @@ form
   margin-bottom: calcRem(30px)
   box-sizing: border-box
 
+.grid-item-in
+  animation: listIn .25s ease-in-out forwards
+
 .link-to-article
   position: absolute
   top: 0
@@ -766,3 +767,5 @@ form
     font-size: calcEm(20px)
     line-height: 1.6
     padding: calcRem(24px) 0
+
+
