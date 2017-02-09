@@ -694,6 +694,7 @@ form {
   transform: scale; }
 
 .subscribe {
+  position: relative;
   width: 28.57143em;
   display: inline-block; }
   .subscribe input[type="text"] {
@@ -998,19 +999,19 @@ form {
   .link-to-article {
     width: 100%;
     left: 0; }
-  .indert .grid-item {
+  .index .grid-item {
     padding: 0; }
-  .indert .wrapper-large {
+  .index .wrapper-large {
     padding: 0 1rem; }
-  .indert .grid > *:first-child {
+  .index .grid > *:first-child {
     margin-left: 0; }
-  .indert .grid > *:last-child {
+  .index .grid > *:last-child {
     margin-right: 0; }
-  .indert .grid > * {
+  .index .grid > * {
     padding: 0; }
-  .indert .menu__item {
+  .index .menu__item {
     font-size: 14px; }
-  .indert .header .ta-right {
+  .index .header .ta-right {
     display: none; }
   .grid-sizer,
   .grid-item {
