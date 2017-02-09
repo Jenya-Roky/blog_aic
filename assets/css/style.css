@@ -693,6 +693,9 @@ form {
   -ms-transform: scale;
   transform: scale; }
 
+.index .subscribe-block__inner .subscribe .textfield {
+  margin-bottom: 0; }
+
 .subscribe {
   position: relative;
   width: 28.57143em;
@@ -999,8 +1002,6 @@ form {
   .link-to-article {
     width: 100%;
     left: 0; }
-  .index .subscribe-block__inner .textfield {
-    margin-bottom: 0; }
   .index .grid-item {
     padding: 0; }
   .index .wrapper-large {
