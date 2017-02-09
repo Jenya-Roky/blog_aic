@@ -999,6 +999,8 @@ form {
   .link-to-article {
     width: 100%;
     left: 0; }
+  .index .stamp-2 {
+    top: 0; }
   .index .grid-item {
     padding: 0; }
   .index .wrapper-large {
@@ -1107,4 +1109,6 @@ form {
   .post-page .post-page__image {
     height: 50vw; }
   .post-page .post-page__body {
-    margin-top: 30px; } }
+    margin-top: 30px; }
+  .post-page .subscribe-block__inner .textfield {
+    margin-bottom: 0; } }
