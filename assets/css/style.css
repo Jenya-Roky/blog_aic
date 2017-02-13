@@ -618,14 +618,14 @@ iframe {
 
 .post-page__publication ul {
   margin: 0 0 3.42857rem 0;
-  padding: 0;
+  padding: 0 0 0 1.78571rem;
   font-size: 1.28571em;
   line-height: 1.6;
-  list-style: inside none;
+  list-style: none;
   font-family: 'Noto Serif', serif; }
   .post-page__publication ul li {
     list-style-image: url("../img/bullet.svg");
-    margin-bottom: 0.85714rem;
+    margin-bottom: 1.42857rem;
     line-height: 1.6; }
     .post-page__publication ul li:last-child {
       margin-bottom: 0; }
