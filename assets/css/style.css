@@ -132,6 +132,9 @@ form {
   padding: 0;
   position: relative; }
 
+iframe {
+  width: 100%; }
+
 .is-hidden {
   display: none !important; }
 
@@ -510,8 +513,9 @@ form {
   padding: 1.71429rem 0; }
 
 .post-page__publication {
-  position: relative;
-  margin-bottom: 3.42857rem; }
+  max-width: 43.14286rem;
+  margin: 0 auto 3.42857rem 0;
+  position: relative; }
 
 .image-description {
   display: block;
