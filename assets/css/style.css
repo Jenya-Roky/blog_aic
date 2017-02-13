@@ -912,6 +912,13 @@ iframe {
   line-height: 1.6;
   padding: 1.71429rem 0; }
 
+.post-page h4 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 1.42857em;
+  line-height: 1.6;
+  padding: 1.71429rem 0; }
+
 @media all and (max-width: 1260px) {
   html,
   body {
