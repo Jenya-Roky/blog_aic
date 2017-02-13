@@ -106,26 +106,23 @@ img {
 
 @-webkit-keyframes listIn {
   from {
-    -webkit-transform: scale(0.1);
-    transform: scale(0.1); }
+    opacity: 0;
+    -webkit-transform: translate3d(0, 20px, 0);
+    transform: translate3d(0, 20px, 0); }
   to {
-    -webkit-transform: scale(1);
-    transform: scale(1); } }
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); } }
 
 @keyframes listIn {
   from {
-    -webkit-transform: scale(0.1);
-    transform: scale(0.1); }
+    opacity: 0;
+    -webkit-transform: translate3d(0, 20px, 0);
+    transform: translate3d(0, 20px, 0); }
   to {
-    -webkit-transform: scale(1);
-    transform: scale(1); } }
-
-.element-in {
-  -webkit-animation: listIn .4s ease;
-  animation: listIn .4s ease;
-  -webkit-transform: scale(1);
-  -ms-transform: scale(1);
-  transform: scale(1); }
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); } }
 
 form {
   margin: 0;
@@ -700,7 +697,11 @@ iframe {
   -ms-transform: scale;
   transform: scale; }
 
+.index .subscribe-block__inner .subscribe .textfield {
+  margin-bottom: 0; }
+
 .subscribe {
+  position: relative;
   width: 28.57143em;
   display: inline-block; }
   .subscribe input[type="text"] {
@@ -740,6 +741,10 @@ iframe {
   padding: 0 1.07143rem;
   margin-bottom: 2.14286rem;
   box-sizing: border-box; }
+
+.grid-item-in {
+  -webkit-animation: listIn .25s ease-in-out forwards;
+  animation: listIn .25s ease-in-out forwards; }
 
 .link-to-article {
   position: absolute;
@@ -998,6 +1003,23 @@ iframe {
     margin-top: 30px; } }
 
 @media all and (max-width: 1010px) and (max-width: 780px) {
+  .link-to-article {
+    width: 100%;
+    left: 0; }
+  .index .grid-item {
+    padding: 0; }
+  .index .wrapper-large {
+    padding: 0 1rem; }
+  .index .grid > *:first-child {
+    margin-left: 0; }
+  .index .grid > *:last-child {
+    margin-right: 0; }
+  .index .grid > * {
+    padding: 0; }
+  .index .menu__item {
+    font-size: 14px; }
+  .index .header .ta-right {
+    display: none; }
   .grid-sizer,
   .grid-item {
     width: 100%; }
@@ -1005,6 +1027,10 @@ iframe {
     width: auto; }
   .post-page .grid {
     display: block; }
+  .post-page .grid-item .grid {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
   .post-page .wide-image {
     max-width: 100%;
     width: 100%;

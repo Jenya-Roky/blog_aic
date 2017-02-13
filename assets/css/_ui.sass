@@ -1,12 +1,10 @@
 @keyframes listIn
   from
-    transform: scale(0.1)
+    opacity: 0
+    transform: translate3d(0,20px,0)
   to
-    transform: scale(1)
-
-.element-in
-  animation: listIn .4s ease
-  transform: scale(1)
+    opacity: 1
+    transform: translate3d(0,0,0)
 
 form
   margin: 0
@@ -558,7 +556,15 @@ iframe
     transform: scale
 
 
+.index
+  .subscribe-block__inner
+    .subscribe
+      .textfield
+        margin-bottom: 0
+
+
 .subscribe
+  position: relative
   width: calcEm(400px)
   display: inline-block
   input[type="text"]
@@ -599,6 +605,9 @@ iframe
   padding: 0 calcRem(15px)
   margin-bottom: calcRem(30px)
   box-sizing: border-box
+
+.grid-item-in
+  animation: listIn .25s ease-in-out forwards
 
 .link-to-article
   position: absolute

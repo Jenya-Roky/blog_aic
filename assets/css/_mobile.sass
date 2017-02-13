@@ -119,6 +119,34 @@
 
 
   @media all and (max-width: 780px)
+    .link-to-article
+      width: 100%
+      left: 0
+
+    .index
+      .grid-item
+        padding: 0
+
+      .wrapper-large
+        padding: 0 1rem
+
+      .grid > *:first-child
+        margin-left: 0
+
+      .grid > *:last-child
+        margin-right: 0
+
+      .grid > *
+        padding: 0
+
+      .menu__item
+        font-size: 14px
+
+      .header
+        .ta-right
+          display: none
+
+
     .grid-sizer,
     .grid-item
       width: 100%
@@ -129,6 +157,10 @@
 
       .grid
         display: block
+
+      .grid-item
+        .grid
+          display: flex
 
       .wide-image
         max-width: 100%
